@@ -4,7 +4,7 @@ import Child from "./Child";
 function Parent(){
     return <div>
         Parent here
-        <Child></Child>
+        {/* <Child></Child> */}
     </div>
 }
 

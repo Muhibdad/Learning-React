@@ -30,7 +30,7 @@ function App(){
   return (
     <ValueContext.Provider value={value}>
         <Child></Child>
-    
+      
      </ValueContext.Provider>
   );
 }
