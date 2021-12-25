@@ -1,7 +1,7 @@
 import React from "react";
 import { useContext } from "react";
 import ValueContext from "./valueContext";
-
+import './child2'
 
 function Child(){
 let value =useContext(ValueContext);

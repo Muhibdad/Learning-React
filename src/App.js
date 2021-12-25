@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import './App.css';
 import Child from './Child';
+import Child2 from './child2';
 // import Hi from './hi';
 // import Room from './Lit';
 import Parent from './Parent';
@@ -29,7 +30,8 @@ function App(){
   //value=[value,function] 
   return (
     <ValueContext.Provider value={value}>
-        <Child></Child>
+        {/* <Child></Child> */}
+            <div><Child2></Child2></div>
       
      </ValueContext.Provider>
   );
