@@ -1,5 +1,4 @@
-
-let numberReducer =(state, action)=>{
+function numberReducer(state, action){
     switch (action.type){
         case 'INCREMENT':
             return state+1;
